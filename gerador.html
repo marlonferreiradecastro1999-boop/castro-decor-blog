@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gerador | Castro Decor</title><link rel="stylesheet" href="gerador.css"></head>
+<body><main><h1>Castro Decor — Gerador de Artigos</h1><p>Cadastre os produtos e gere o HTML pronto para publicar.</p>
+<section class="panel"><label>Título SEO<input id="titulo" value="100 Produtos para Casa: Melhores Achadinhos de 2026"></label><label>Palavra-chave<input id="keyword" value="produtos para casa"></label><label>Descrição<input id="desc" value="Confira produtos para casa, decoração, eletrônicos, eletrodomésticos e achadinhos com bom custo-benefício."></label></section>
+<section class="panel"><div class="toolbar"><button onclick="adicionarProduto()">+ Adicionar produto</button><button onclick="gerar()">Gerar artigo</button><button onclick="baixar()">Baixar HTML</button></div><div id="lista"></div></section>
+<section class="panel"><h2>HTML gerado</h2><textarea id="saida" spellcheck="false"></textarea></section></main><script src="gerador.js"></script></body></html>
